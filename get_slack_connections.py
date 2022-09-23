@@ -41,7 +41,7 @@ modified_list = []
 for each_extracted_connection in list_of_slack_connections:
     modified_list.append({"slack_connection": each_extracted_connection})
 
-# Serializing and writing to services.json - used for testing display only
+# Serializing and writing to slack_connections.json - used for testing display only
 json_object = json.dumps(modified_list, indent=4)
 with open("slack_connections.json", "w") as outfile:
     outfile.write(json_object)
