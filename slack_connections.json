@@ -1,0 +1,138 @@
+[
+    {
+        "slack_connection": {
+            "id": "PYWHI5G",
+            "source_id": "PDPDCD5",
+            "source_name": "Network Operations Center",
+            "source_type": "team_reference",
+            "channel_id": "C021N1DGBT8",
+            "channel_name": "network_operations_center",
+            "config": {
+                "events": [
+                    "incident.triggered",
+                    "incident.acknowledged",
+                    "incident.escalated",
+                    "incident.resolved",
+                    "incident.reassigned",
+                    "incident.annotated",
+                    "incident.unacknowledged",
+                    "incident.delegated",
+                    "incident.priority_updated",
+                    "incident.responder.added",
+                    "incident.responder.replied",
+                    "incident.status_update_published",
+                    "incident.reopened",
+                    "incident.action_invocation.created",
+                    "incident.action_invocation.updated",
+                    "incident.action_invocation.terminated"
+                ],
+                "priorities": null,
+                "urgency": null
+            },
+            "notification_type": "responder"
+        }
+    },
+    {
+        "slack_connection": {
+            "id": "PVLQP7R",
+            "source_id": "PW44BOS",
+            "source_name": "Infrastructure",
+            "source_type": "team_reference",
+            "channel_id": "C03G571JWE4",
+            "channel_name": "infrastructure",
+            "config": {
+                "events": [
+                    "incident.triggered",
+                    "incident.acknowledged",
+                    "incident.escalated",
+                    "incident.resolved",
+                    "incident.reassigned",
+                    "incident.annotated",
+                    "incident.unacknowledged",
+                    "incident.delegated",
+                    "incident.priority_updated",
+                    "incident.responder.added",
+                    "incident.responder.replied",
+                    "incident.status_update_published",
+                    "incident.reopened",
+                    "incident.action_invocation.created",
+                    "incident.action_invocation.updated",
+                    "incident.action_invocation.terminated"
+                ],
+                "priorities": [
+                    "P9749Z2",
+                    "P5XG8JC",
+                    "P1LV87P"
+                ],
+                "urgency": null
+            },
+            "notification_type": "responder"
+        }
+    },
+    {
+        "slack_connection": {
+            "id": "PZZLSQX",
+            "source_id": "PYKBKDK",
+            "source_name": "Checkout - App",
+            "source_type": "service_reference",
+            "channel_id": "C03FFE5J64S",
+            "channel_name": "devops",
+            "config": {
+                "events": [
+                    "incident.triggered",
+                    "incident.acknowledged",
+                    "incident.escalated",
+                    "incident.resolved",
+                    "incident.reassigned",
+                    "incident.annotated",
+                    "incident.unacknowledged",
+                    "incident.delegated",
+                    "incident.priority_updated",
+                    "incident.responder.added",
+                    "incident.responder.replied",
+                    "incident.status_update_published",
+                    "incident.reopened",
+                    "incident.action_invocation.created",
+                    "incident.action_invocation.updated",
+                    "incident.action_invocation.terminated"
+                ],
+                "priorities": null,
+                "urgency": null
+            },
+            "notification_type": "responder"
+        }
+    },
+    {
+        "slack_connection": {
+            "id": "PW0ARB7",
+            "source_id": "PCWMLTN",
+            "source_name": "Registration - App",
+            "source_type": "service_reference",
+            "channel_id": "C03FFE5J64S",
+            "channel_name": "devops",
+            "config": {
+                "events": [
+                    "incident.triggered",
+                    "incident.acknowledged",
+                    "incident.escalated",
+                    "incident.resolved",
+                    "incident.reassigned",
+                    "incident.annotated",
+                    "incident.unacknowledged",
+                    "incident.delegated",
+                    "incident.priority_updated",
+                    "incident.responder.added",
+                    "incident.responder.replied",
+                    "incident.status_update_published",
+                    "incident.reopened",
+                    "incident.action_invocation.created",
+                    "incident.action_invocation.updated",
+                    "incident.action_invocation.terminated"
+                ],
+                "priorities": null,
+                "urgency": null
+            },
+            "notification_type": "responder"
+        }
+    }
+]
