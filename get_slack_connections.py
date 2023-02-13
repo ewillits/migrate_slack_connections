@@ -3,7 +3,7 @@ import json
 import csv
 import personal_secrets
 
-url = "https://app.pagerduty.com/integration-slack/workspaces/T021UQ5QY3U/connections"
+url = "https://app.pagerduty.com/integration-slack/workspaces/<<INSERT_WORKSPACE_ID_HERE>>/connections"
 # Add "include[]":"integrations" to querystring for integration information
 querystring = {"limit": "5", "offset": 0}
 headers = {
